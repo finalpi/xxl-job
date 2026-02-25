@@ -1,5 +1,5 @@
-FROM openjdk:8-jre-slim
-MAINTAINER xuxueli
+FROM eclipse-temurin:8-jre
+LABEL maintainer="xuxueli"
 
 ENV PARAMS=""
 
